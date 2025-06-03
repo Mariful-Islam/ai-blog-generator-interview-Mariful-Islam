@@ -30,7 +30,7 @@ def generate():
 # Daily scheduler
 scheduler = BackgroundScheduler()
 scheduler.add_job(func=lambda: generate_and_save_post("wireless earbuds"),
-                  trigger="interval", seconds=5, id="daily_job")
+                  trigger="interval", days=1, id="daily_job")
 scheduler.start()
 
 if __name__ == "__main__":
