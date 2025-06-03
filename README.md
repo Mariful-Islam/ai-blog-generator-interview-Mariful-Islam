@@ -7,7 +7,7 @@ This is a Flask app that generates SEO-friendly blog posts using OpenAI.
 1. Clone the repo:
     ```bash
     git clone git@github.com:Mariful-Islam/ai-blog-generator-interview-Mariful-Islam.git
-    cd ai-blog-generator-interview-YourName
+    cd ai-blog-generator-interview-Mariful-Islam
     ```
 
 2. Create virtualenv and install dependencies:
